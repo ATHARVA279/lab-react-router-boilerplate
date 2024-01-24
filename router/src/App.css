@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 nav{
@@ -19,6 +20,7 @@ nav{
 
 .flex h3{
   margin: 0 15px;
+  color: white;
 }
 
 nav>h1{
@@ -29,4 +31,9 @@ nav>h1{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.home>h1{
+  margin: 10px;
+  font-size: 50px;
 }
